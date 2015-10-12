@@ -1,0 +1,28 @@
+name        = THEME NAME
+description = A theme for Open Restaurant based on <a href="http://drupal.org/project/radix">Radix</a>.
+screenshot  = screenshot.png
+core        = 7.x
+
+; Base - Radix
+base theme  = restaurant_radix
+
+; Regions
+regions[content] = Content
+
+; Panels
+plugins[panels][layouts] = layouts
+plugins[panels][styles] = styles
+
+; Breakpoints
+breakpoints[xs] = (max-width: 767px)
+breakpoints[sm] = (min-width: 768px) and (max-width: 991px)
+breakpoints[md] = (min-width: 992px) and (max-width: 1199px)
+breakpoints[lg] = (min-width: 1200px)
+
+; Vendors
+
+; CSS - General
+stylesheets[all][]     = assets/stylesheets/THEMENAME.screen.css
+
+; Javascript
+scripts[] = assets/javascripts/THEMENAME.script.js
